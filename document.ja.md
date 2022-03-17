@@ -56,12 +56,10 @@ CXXFLAGS = ["-std=c++17", "-Wall", "-g", "-fsanitize=undefined", "-D_GLIBCXX_DEB
 `.verify-helper/config.toml` というファイルを作って以下のように設定を書くと各種設定ができます。
 
 - static_embedding: `dotnet-source-expand` の `--static-embedding` オプション
-- enable_bundle_projects: `bundle` が正常に動作する `csproj`
 
 ``` toml
 [[languages.csharp]]
 static_embedding = "// embed"
-enable_bundle_projects = ["examples/csharpsx/Tests/Tests.csproj"]
 ```
 ### Nim の設定
 

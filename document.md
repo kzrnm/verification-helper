@@ -55,12 +55,10 @@ For the details refer to [examples/csharpsx](https://github.com/kzrnm/verificati
 You can specify compilers and options with writing `.verify-helper/config.toml` as below.
 
 - static_embedding: `dotnet-source-expand` with `--static-embedding` option
-- enable_bundle_projects: List of `csproj` file that `bundle` work correctly.
 
 ``` toml
 [[languages.csharp]]
 static_embedding = "// embed"
-enable_bundle_projects = ["examples/csharpsx/Tests/Tests.csproj"]
 ```
 
 ### Settings for Nim
