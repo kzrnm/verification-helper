@@ -1,37 +1,35 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: examples/csharpsx/Library/HelloWorld.cs
+    title: examples/csharpsx/Library/HelloWorld.cs
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: examples/csharpsx/Tests/helloworld.test.cs
+    title: examples/csharpsx/Tests/helloworld.test.cs
   _isVerificationFailed: false
   _pathExtension: cs
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
-    , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharp.py\"\
-    , line 231, in bundle\n    _check_env(path)\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharp.py\"\
-    , line 89, in _check_env\n    _check_embedded_existing(_resolve_csproj(path))\n\
-    \  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharp.py\"\
-    , line 80, in _check_embedded_existing\n    subprocess.check_output(command)\n\
-    \  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/subprocess.py\"\
-    , line 420, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout,\
-    \ check=True,\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/subprocess.py\"\
-    , line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError:\
-    \ Command '['dotnet', 'build', '/home/runner/work/verification-helper/verification-helper/examples/csharpsx/Library/Library.csproj',\
-    \ '-p:BaseIntermediateOutputPath=/home/runner/work/verification-helper/verification-helper/.verify-helper/cache/dotnet/obj/']'\
-    \ returned non-zero exit status 1.\n"
+  bundledCode: "namespace Library\n{\n    public static partial class HelloWorld\n\
+    \    {\n        private const string Text = \"Hello World\";\n    }\n}\n#region\
+    \ Expanded by https://github.com/kzrnm/SourceExpander\n#endregion Expanded by\
+    \ https://github.com/kzrnm/SourceExpander\n"
   code: "\uFEFFusing System;\n\nnamespace Library\n{\n    public static partial class\
     \ HelloWorld\n    {\n        private const string Text = \"Hello World\";\n  \
     \  }\n}\n"
   dependsOn: []
   isVerificationFile: false
   path: examples/csharpsx/Library/HelloWorld.const.cs
-  requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  requiredBy:
+  - examples/csharpsx/Library/HelloWorld.cs
+  timestamp: '2022-03-17 11:57:58+00:00'
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - examples/csharpsx/Tests/helloworld.test.cs
 documentation_of: examples/csharpsx/Library/HelloWorld.const.cs
 layout: document
 redirect_from:

@@ -21,25 +21,15 @@ data:
       title: examples/csharpscript/segment_tree.csx
   - name: examples/csharpsx/Library
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: examples/csharpsx/Library/HelloWorld.const.cs
       title: examples/csharpsx/Library/HelloWorld.const.cs
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: examples/csharpsx/Library/HelloWorld.cs
       title: examples/csharpsx/Library/HelloWorld.cs
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: examples/csharpsx/Library/SegmentTree.cs
       title: examples/csharpsx/Library/SegmentTree.cs
-  - name: examples/csharpsx/Library/obj/Debug/netcoreapp3.1
-    pages:
-    - icon: ':warning:'
-      path: examples/csharpsx/Library/obj/Debug/netcoreapp3.1/Library.AssemblyInfo.cs
-      title: examples/csharpsx/Library/obj/Debug/netcoreapp3.1/Library.AssemblyInfo.cs
-  - name: examples/csharpsx/Tests/obj/Debug/netcoreapp3.1
-    pages:
-    - icon: ':warning:'
-      path: examples/csharpsx/Tests/obj/Debug/netcoreapp3.1/Tests.AssemblyInfo.cs
-      title: examples/csharpsx/Tests/obj/Debug/netcoreapp3.1/Tests.AssemblyInfo.cs
   - name: examples/debug/a/b/c
     pages:
     - icon: ':heavy_check_mark:'
@@ -174,16 +164,16 @@ data:
     - icon: ':x:'
       path: examples/csharpsx/Tests/_LocalRunner.test.cs
       title: examples/csharpsx/Tests/_LocalRunner.test.cs
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: examples/csharpsx/Tests/helloworld.test.cs
       title: examples/csharpsx/Tests/helloworld.test.cs
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs
       title: examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
       title: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: examples/csharpsx/Tests/segment_tree.range_sum_query.test.cs
       title: examples/csharpsx/Tests/segment_tree.range_sum_query.test.cs
   - name: examples/debug
