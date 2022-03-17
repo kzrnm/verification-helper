@@ -21,13 +21,13 @@ data:
       title: examples/csharpscript/segment_tree.csx
   - name: examples/csharpsx/Library
     pages:
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/csharpsx/Library/HelloWorld.const.cs
       title: examples/csharpsx/Library/HelloWorld.const.cs
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/csharpsx/Library/HelloWorld.cs
       title: examples/csharpsx/Library/HelloWorld.cs
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/csharpsx/Library/SegmentTree.cs
       title: examples/csharpsx/Library/SegmentTree.cs
   - name: examples/debug/a/b/c
@@ -164,16 +164,16 @@ data:
     - icon: ':x:'
       path: examples/csharpsx/Tests/_LocalRunner.test.cs
       title: examples/csharpsx/Tests/_LocalRunner.test.cs
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/csharpsx/Tests/helloworld.test.cs
       title: examples/csharpsx/Tests/helloworld.test.cs
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs
       title: examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
       title: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/csharpsx/Tests/segment_tree.range_sum_query.test.cs
       title: examples/csharpsx/Tests/segment_tree.range_sum_query.test.cs
   - name: examples/debug

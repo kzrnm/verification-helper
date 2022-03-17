@@ -43,8 +43,6 @@ There is no config now.
 
 ### Settings for C#
 
-There is no config now.
-
 `oj-verify` and `oj-bundle` work with [SourceExpander](https://github.com/kzrnm/SourceExpander).
 
 Requied settings
@@ -53,6 +51,17 @@ Requied settings
 - Add `SourceExpander.Embedder` reference to Library project.
 
 For the details refer to [examples/csharpsx](https://github.com/kzrnm/verification-helper/tree/master/examples/csharpsx).
+
+You can specify compilers and options with writing `.verify-helper/config.toml` as below.
+
+- static_embedding: `dotnet-source-expand` with `--static-embedding` option
+- enable_bundle_projects: List of `csproj` file that `bundle` work correctly.
+
+``` toml
+[[languages.csharp]]
+static_embedding = "// embed"
+enable_bundle_projects = ["examples/csharpsx/Tests/Tests.csproj"]
+```
 
 ### Settings for Nim
 

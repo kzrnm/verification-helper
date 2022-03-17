@@ -43,8 +43,6 @@ CXXFLAGS = ["-std=c++17", "-Wall", "-g", "-fsanitize=undefined", "-D_GLIBCXX_DEB
 
 ### C# の設定
 
-設定項目はありません。
-
 [SourceExpander](https://github.com/kzrnm/SourceExpander) を使用して各種機能を実現します。
 
 必須設定
@@ -54,6 +52,17 @@ CXXFLAGS = ["-std=c++17", "-Wall", "-g", "-fsanitize=undefined", "-D_GLIBCXX_DEB
 
 具体的な設定は [examples/csharpsx](https://github.com/kzrnm/verification-helper/tree/master/examples/csharpsx) を参照。
 
+
+`.verify-helper/config.toml` というファイルを作って以下のように設定を書くと各種設定ができます。
+
+- static_embedding: `dotnet-source-expand` の `--static-embedding` オプション
+- enable_bundle_projects: `bundle` が正常に動作する `csproj`
+
+``` toml
+[[languages.csharp]]
+static_embedding = "// embed"
+enable_bundle_projects = ["examples/csharpsx/Tests/Tests.csproj"]
+```
 ### Nim の設定
 
 `.verify-helper/config.toml` というファイルを作って以下のように設定を書くと、コンパイルの際に変換する言語 (例: `c`, `cpp`) やそのオプションを指定できます。
