@@ -1,6 +1,6 @@
 # The reference of Online Judge Verification Helper
 
-[日本語バージョン](https://online-judge-tools.github.io/verification-helper/document.ja.html)
+[日本語バージョン](https://kzrnm.github.io/verification-helper/document.ja.html)
 
 ## Supported languages
 

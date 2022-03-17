@@ -1,6 +1,6 @@
 # Online Judge Verification Helper の細かい仕様
 
-[English Version](https://online-judge-tools.github.io/verification-helper/document.html)
+[English Version](https://kzrnm.github.io/verification-helper/document.html)
 
 ## 対応している言語
 
