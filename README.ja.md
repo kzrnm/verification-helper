@@ -1,9 +1,9 @@
 # online-judge-tools/verification-helper
 
-[![Actions Status](https://github.com/online-judge-tools/verification-helper/workflows/verify/badge.svg)](https://github.com/kmyk/online-judge-verify-helper/actions)
+[![Actions Status](https://github.com/kzrnm/verification-helper/workflows/verify/badge.svg)](https://github.com/kmyk/online-judge-verify-helper/actions)
 [![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://online-judge-tools.github.io/verification-helper/)
 [![PyPI](https://img.shields.io/pypi/v/online-judge-verify-helper)](https://pypi.org/project/online-judge-verify-helper/)
-[![LICENSE](https://img.shields.io/pypi/l/online-judge-verify-helper.svg)](https://github.com/online-judge-tools/verification-helper/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/pypi/l/online-judge-verify-helper.svg)](https://github.com/kzrnm/verification-helper/blob/master/LICENSE)
 
 [README in English](README.md)
 
@@ -70,7 +70,7 @@ $ oj-verify docs
 
 -   ライブラリを verify するための問題が見つからないときは他の人のライブラリを参考にするとよいでしょう。`online-judge-verify-helper` のユーザの一覧は <https://github.com/search?q=online-judge-verify-helper+path%3A.github> から見ることができます
 -   ライブラリを verify するための問題がそれでも見つからないときは [Library Checker](https://judge.yosupo.jp/) に問題を追加してください。[Hello World](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A) などをダミーの問題として指定して、自前で書いたストレステストを実行することもできます。
--   GitHub Actions から online-judge-verify-helper を呼び出すといった通常想定される利用法においては MIT License に関する著作権表示は要求されません ([詳細](https://github.com/online-judge-tools/verification-helper/issues/34))
+-   GitHub Actions から online-judge-verify-helper を呼び出すといった通常想定される利用法においては MIT License に関する著作権表示は要求されません ([詳細](https://github.com/kzrnm/verification-helper/issues/34))
 -   これはライブラリを効率良く verify するためのツールであり、コードの検査や整形をするためのツールではありません。必要なら [clang-format](https://clang.llvm.org/docs/ClangFormat.html) などの formatter や [cppcheck](http://cppcheck.sourceforge.net/) などの linter を利用してください
 
 ## Authors

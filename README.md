@@ -1,9 +1,9 @@
 # online-judge-tools/verification-helper
 
-[![Actions Status](https://github.com/online-judge-tools/verification-helper/workflows/verify/badge.svg)](https://github.com/kmyk/online-judge-verify-helper/actions)
+[![Actions Status](https://github.com/kzrnm/verification-helper/workflows/verify/badge.svg)](https://github.com/kmyk/online-judge-verify-helper/actions)
 [![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://online-judge-tools.github.io/verification-helper/)
 [![PyPI](https://img.shields.io/pypi/v/online-judge-verify-helper)](https://pypi.org/project/online-judge-verify-helper/)
-[![LICENSE](https://img.shields.io/pypi/l/online-judge-verify-helper.svg)](https://github.com/online-judge-tools/verification-helper/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/pypi/l/online-judge-verify-helper.svg)](https://github.com/kzrnm/verification-helper/blob/master/LICENSE)
 
 [README 日本語バージョン](README.ja.md)
 
@@ -68,7 +68,7 @@ For the details, see [the reference](https://online-judge-tools.github.io/verifi
 
 -   If you cannot find problems to verify your library, you can refer to other users' libraries. You can find all users of `online-judge-verify-helper` at <https://github.com/search?q=online-judge-verify-helper+path%3A.github>.
 -   If you cannot find problems to verify your library anywhere, we suggest that you add a problem to [Library Checker](https://judge.yosupo.jp/). You can use [Hello World](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A) as a dummy problem to run your own stress tests.
--   You do not need to display the MIT License if you call `online-judge-verify-helper` from GitHub Actions ([Details, in Japanese](https://github.com/online-judge-tools/verification-helper/issues/34)).
+-   You do not need to display the MIT License if you call `online-judge-verify-helper` from GitHub Actions ([Details, in Japanese](https://github.com/kzrnm/verification-helper/issues/34)).
 -   This is tool to efficiently verify your library, not to check or prettify your code. If you need such functions, you can try formatters like [clang-format](https://clang.llvm.org/docs/ClangFormat.html) or linters like [cppcheck](http://cppcheck.sourceforge.net/).
 
 ## Authors

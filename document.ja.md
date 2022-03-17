@@ -8,15 +8,16 @@
 
 | 言語 | 認識される拡張子 | テストファイルだと認識されるパターン | 属性の指定方法 | 対応機能 (verify / bundle / doc) | ファイル例 |
 |---|---|---|---|---|---|
-| C++ | `.cpp` `.hpp` | `.test.cpp` | `#define [KEY] [VALUE]` | :heavy_check_mark: / :heavy_check_mark: / :heavy_check_mark: | [segment_tree.range_sum_query.test.cpp](https://github.com/online-judge-tools/verification-helper/blob/master/examples/segment_tree.range_sum_query.test.cpp) |
-| C# script | `.csx` | `.test.csx` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [segment_tree.range_sum_query.test.csx](https://github.com/online-judge-tools/verification-helper/blob/master/examples/csharpscript/segment_tree.range_sum_query.test.csx) |
-| Nim | `.nim` | `_test.nim` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_tree_yosupo_test.nim](https://github.com/online-judge-tools/verification-helper/blob/master/examples/nim/union_find_tree_yosupo_test.nim) |
-| Python 3 | `.py` | `.test.py` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_yosupo.test.py](https://github.com/online-judge-tools/verification-helper/blob/master/examples/python/union_find_yosupo.test.py) |
-| Haskell | `.hs` | `.test.hs` | `-- verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld.test.hs](https://github.com/online-judge-tools/verification-helper/blob/master/Examples2/Haskell/HelloWorld.test.hs) |
-| Ruby | `.rb` | `.test.rb` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [hello_world.test.rb](https://github.com/online-judge-tools/verification-helper/blob/master/examples/ruby/hello_world.test.rb) |
-| Go | `.go` | `.test.go` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [helloworld.test.go](https://github.com/online-judge-tools/verification-helper/blob/master/examples/go/helloworld.test.go) |
-| Java | `.java` | `_test.java` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld_test.java](https://github.com/online-judge-tools/verification-helper/blob/master/examples/java/HelloWorld_test.java) |
-| Rust | `.rs` | 特殊 | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [itp1-1-a.rs](https://github.com/online-judge-tools/verification-helper/blob/master/examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs) |
+| C++ | `.cpp` `.hpp` | `.test.cpp` | `#define [KEY] [VALUE]` | :heavy_check_mark: / :heavy_check_mark: / :heavy_check_mark: | [segment_tree.range_sum_query.test.cpp](https://github.com/kzrnm/verification-helper/blob/master/examples/segment_tree.range_sum_query.test.cpp) |
+| C# script | `.csx` | `.test.csx` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [segment_tree.range_sum_query.test.csx](https://github.com/kzrnm/verification-helper/blob/master/examples/csharpscript/segment_tree.range_sum_query.test.csx) |
+| C# | `.cs` | `.test.cs` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :heavy_check_mark: / :heavy_check_mark: | [segment_tree.range_sum_query.test.csx](https://github.com/kzrnm/verification-helper/blob/master/examples/csharpsx/Verifier/segment_tree.range_sum_query.test.csx) |
+| Nim | `.nim` | `_test.nim` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_tree_yosupo_test.nim](https://github.com/kzrnm/verification-helper/blob/master/examples/nim/union_find_tree_yosupo_test.nim) |
+| Python 3 | `.py` | `.test.py` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_yosupo.test.py](https://github.com/kzrnm/verification-helper/blob/master/examples/python/union_find_yosupo.test.py) |
+| Haskell | `.hs` | `.test.hs` | `-- verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld.test.hs](https://github.com/kzrnm/verification-helper/blob/master/Examples2/Haskell/HelloWorld.test.hs) |
+| Ruby | `.rb` | `.test.rb` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [hello_world.test.rb](https://github.com/kzrnm/verification-helper/blob/master/examples/ruby/hello_world.test.rb) |
+| Go | `.go` | `.test.go` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [helloworld.test.go](https://github.com/kzrnm/verification-helper/blob/master/examples/go/helloworld.test.go) |
+| Java | `.java` | `_test.java` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld_test.java](https://github.com/kzrnm/verification-helper/blob/master/examples/java/HelloWorld_test.java) |
+| Rust | `.rs` | 特殊 | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [itp1-1-a.rs](https://github.com/kzrnm/verification-helper/blob/master/examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs) |
 
 ### C++ の設定
 
@@ -40,7 +41,18 @@ CXXFLAGS = ["-std=c++17", "-Wall", "-g", "-fsanitize=undefined", "-D_GLIBCXX_DEB
 設定項目はありません。
 コンパイラには .NET Core が使われます。
 
--   いまのところ `.cs` という拡張子が認識されないことに注意してください ([#248](https://github.com/online-judge-tools/verification-helper/issues/248))。
+### C# の設定
+
+設定項目はありません。
+
+[SourceExpander](https://github.com/kzrnm/SourceExpander) を使用して各種機能を実現します。
+
+必須設定
+- ライブラリのターゲットに関わらず、.NET 6 以上の SDK をインストールする。
+- Library と Test は別のプロジェクトとして作成する。
+- Libraryプロジェクトには `SourceExpander.Embedder` を参照に追加する。
+
+具体的な設定は [examples/csharpsx](https://github.com/kzrnm/verification-helper/tree/master/examples/csharpsx) を参照。
 
 ### Nim の設定
 
@@ -91,8 +103,8 @@ NIMFLAGS = ["--warning:on", "--opt:none"]
 
 ### その他の言語の設定
 
-上記以外の言語でも実行可能です (例: [examples/awk/circle.test.awk](https://github.com/online-judge-tools/verification-helper/blob/master/examples/awk/circle.test.awk))。
-`.verify-helper/config.toml` というファイルを作って、以下のようにコンパイルや実行のためのコマンドを書いてください (例: [.verify-helper/config.toml](https://github.com/online-judge-tools/verification-helper/blob/master/.verify-helper/config.toml))。
+上記以外の言語でも実行可能です (例: [examples/awk/circle.test.awk](https://github.com/kzrnm/verification-helper/blob/master/examples/awk/circle.test.awk))。
+`.verify-helper/config.toml` というファイルを作って、以下のようにコンパイルや実行のためのコマンドを書いてください (例: [.verify-helper/config.toml](https://github.com/kzrnm/verification-helper/blob/master/.verify-helper/config.toml))。
 `compile` と `execute` のフィールドは必須で、その他は省略可能です。
 
 ``` toml

@@ -8,15 +8,16 @@ Summary:
 
 | Language | Available file extensions | Pattern to detect test files | How to specify attributes | Features (verify / bundle / doc) | Example file |
 |---|---|---|---|---|---|
-| C++ | `.cpp` `.hpp` | `.test.cpp` | `#define [KEY] [VALUE]` | :heavy_check_mark: / :heavy_check_mark: / :heavy_check_mark: | [segment_tree.range_sum_query.test.cpp](https://github.com/online-judge-tools/verification-helper/blob/master/examples/segment_tree.range_sum_query.test.cpp) |
-| C# script | `.csx` | `.test.csx` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [segment_tree.range_sum_query.test.csx](https://github.com/online-judge-tools/verification-helper/blob/master/examples/csharpscript/segment_tree.range_sum_query.test.csx) |
-| Nim | `.nim` | `_test.nim` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_tree_yosupo_test.nim](https://github.com/online-judge-tools/verification-helper/blob/master/examples/nim/union_find_tree_yosupo_test.nim) |
-| Python 3 | `.py` | `.test.py` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_yosupo.test.py](https://github.com/online-judge-tools/verification-helper/blob/master/examples/python/union_find_yosupo.test.py) |
-| Haskell | `.hs` | `.test.hs` | `-- verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld.test.hs](https://github.com/online-judge-tools/verification-helper/blob/master/Examples2/Haskell/HelloWorld.test.hs) |
-| Ruby | `.rb` | `.test.rb` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [hello_world.test.rb](https://github.com/online-judge-tools/verification-helper/blob/master/examples/ruby/hello_world.test.rb) |
-| Go | `.go` | `.test.go` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [helloworld.test.go](https://github.com/online-judge-tools/verification-helper/blob/master/examples/go/helloworld.test.go) |
-| Java | `.java` | `_test.java` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld_test.java](https://github.com/online-judge-tools/verification-helper/blob/master/examples/java/HelloWorld_test.java) |
-| Rust | `.rs` | special | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [itp1-1-a.rs](https://github.com/online-judge-tools/verification-helper/blob/master/examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs) |
+| C++ | `.cpp` `.hpp` | `.test.cpp` | `#define [KEY] [VALUE]` | :heavy_check_mark: / :heavy_check_mark: / :heavy_check_mark: | [segment_tree.range_sum_query.test.cpp](https://github.com/kzrnm/verification-helper/blob/master/examples/segment_tree.range_sum_query.test.cpp) |
+| C# script | `.csx` | `.test.csx` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [segment_tree.range_sum_query.test.csx](https://github.com/kzrnm/verification-helper/blob/master/examples/csharpscript/segment_tree.range_sum_query.test.csx) |
+| C# | `.cs` | `.test.cs` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :heavy_check_mark: / :heavy_check_mark: | [segment_tree.range_sum_query.test.csx](https://github.com/kzrnm/verification-helper/blob/master/examples/csharpsx/Verifier/segment_tree.range_sum_query.test.csx) |
+| Nim | `.nim` | `_test.nim` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_tree_yosupo_test.nim](https://github.com/kzrnm/verification-helper/blob/master/examples/nim/union_find_tree_yosupo_test.nim) |
+| Python 3 | `.py` | `.test.py` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :heavy_check_mark: | [union_find_yosupo.test.py](https://github.com/kzrnm/verification-helper/blob/master/examples/python/union_find_yosupo.test.py) |
+| Haskell | `.hs` | `.test.hs` | `-- verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld.test.hs](https://github.com/kzrnm/verification-helper/blob/master/Examples2/Haskell/HelloWorld.test.hs) |
+| Ruby | `.rb` | `.test.rb` | `# verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [hello_world.test.rb](https://github.com/kzrnm/verification-helper/blob/master/examples/ruby/hello_world.test.rb) |
+| Go | `.go` | `.test.go` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [helloworld.test.go](https://github.com/kzrnm/verification-helper/blob/master/examples/go/helloworld.test.go) |
+| Java | `.java` | `_test.java` | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [HelloWorld_test.java](https://github.com/kzrnm/verification-helper/blob/master/examples/java/HelloWorld_test.java) |
+| Rust | `.rs` | special | `// verification-helper: [KEY] [VALUE]` | :heavy_check_mark: / :x: / :warning: | [itp1-1-a.rs](https://github.com/kzrnm/verification-helper/blob/master/examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs) |
 
 ### Settings for C++
 
@@ -35,12 +36,23 @@ CXXFLAGS = ["-std=c++17", "-Wall", "-g", "-fsanitize=undefined", "-D_GLIBCXX_DEB
 -   If you use environments which [`ulimit`](https://linux.die.net/man/3/ulimit) doesn't work on, and if you want to set `CXXFLAGS` by yourself, please be careful about the stack size.
 -   The supported extensions are `.cpp`, `.hpp`, `.cc`, and `.h`. Please note that files with other extensions like `.c` `.h++` and files without extensions are not recognized.
 
-### Settings for C#
+### Settings for C# script
 
 There is no config now.
 .NET Core is used as the compiler.
 
--   Note that currently the `.cs` extension is not recognized ([#248](https://github.com/online-judge-tools/verification-helper/issues/248)).
+### Settings for C#
+
+There is no config now.
+
+`oj-verify` and `oj-bundle` work with [SourceExpander](https://github.com/kzrnm/SourceExpander).
+
+Requied settings
+- Install .NET 6 or newer SDK regardless of target framework of library.
+- Create Library project and Test project as different projects.
+- Add `SourceExpander.Embedder` reference to Library project.
+
+For the details refer to [examples/csharpsx](https://github.com/kzrnm/verification-helper/tree/master/examples/csharpsx).
 
 ### Settings for Nim
 
@@ -91,7 +103,7 @@ You can customize the method to list depending files with `languages.rust.list_d
 
 ### Settings for other languages
 
-You can use languages other than above (e.g. AWK [examples/awk/circle.test.awk](https://github.com/online-judge-tools/verification-helper/blob/master/examples/awk/circle.test.awk)). Please write commands to compile and execute in the config file `.verify-helper/config.toml` (e.g. [.verify-helper/config.toml](https://github.com/kmyk/online-judge-verify-helper/blob/master/.verify-helper/config.toml)).
+You can use languages other than above (e.g. AWK [examples/awk/circle.test.awk](https://github.com/kzrnm/verification-helper/blob/master/examples/awk/circle.test.awk)). Please write commands to compile and execute in the config file `.verify-helper/config.toml` (e.g. [.verify-helper/config.toml](https://github.com/kmyk/online-judge-verify-helper/blob/master/.verify-helper/config.toml)).
 `compile` field and `execute` field are required, and other fields are optional.
 
 ``` toml
