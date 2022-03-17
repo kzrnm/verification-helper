@@ -2,25 +2,22 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpsx/Library/HelloWorld.cs
     title: examples/csharpsx/Library/HelloWorld.cs
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpsx/Tests/helloworld.test.cs
     title: examples/csharpsx/Tests/helloworld.test.cs
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cs
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
-    , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharp.py\"\
-    , line 254, in bundle\n    self.config.check_bundle_enable(_resolve_csproj(path))\n\
-    \  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharp.py\"\
-    , line 192, in check_bundle_enable\n    raise RuntimeError('project is not enable\
-    \ to bundle')\nRuntimeError: project is not enable to bundle\n"
+  bundledCode: "namespace Library\n{\n    public static partial class HelloWorld\n\
+    \    {\n        private const string Text = \"Hello World\";\n    }\n}\n#region\
+    \ Expanded by https://github.com/kzrnm/SourceExpander\n#endregion Expanded by\
+    \ https://github.com/kzrnm/SourceExpander\n"
   code: "\uFEFFusing System;\n\nnamespace Library\n{\n    public static partial class\
     \ HelloWorld\n    {\n        private const string Text = \"Hello World\";\n  \
     \  }\n}\n"
@@ -29,8 +26,8 @@ data:
   path: examples/csharpsx/Library/HelloWorld.const.cs
   requiredBy:
   - examples/csharpsx/Library/HelloWorld.cs
-  timestamp: '2022-03-17 23:37:21+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2022-03-17 16:42:16+00:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/csharpsx/Tests/helloworld.test.cs
 documentation_of: examples/csharpsx/Library/HelloWorld.const.cs

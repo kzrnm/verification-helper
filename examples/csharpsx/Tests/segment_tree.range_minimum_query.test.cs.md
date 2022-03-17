@@ -1,26 +1,43 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpsx/Library/SegmentTree.cs
     title: examples/csharpsx/Library/SegmentTree.cs
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cs
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A
     links:
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
-    , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharp.py\"\
-    , line 254, in bundle\n    self.config.check_bundle_enable(_resolve_csproj(path))\n\
-    \  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharp.py\"\
-    , line 192, in check_bundle_enable\n    raise RuntimeError('project is not enable\
-    \ to bundle')\nRuntimeError: project is not enable to bundle\n"
+  bundledCode: "using Library;\nusing System;\nusing System.Linq;\nclass range_minimum_query\n\
+    {\n    static void Main()\n    {\n        var nq = Console.ReadLine().Split().Select(int.Parse).ToArray();\n\
+    \        var (n, q) = (nq[0], nq[1]);\n        SegmentTree<int> segTree = new\
+    \ SegmentTree<int>(n, int.MaxValue, Math.Min);\n\n        for (int i = 0; i <\
+    \ q; i++)\n        {\n            var query = Console.ReadLine().Split().Select(int.Parse).ToArray();\n\
+    \            if (query[0] == 0)\n            {\n                segTree[query[1]]\
+    \ = query[2];\n            }\n            else\n            {\n              \
+    \  Console.WriteLine(segTree[query[1]..(query[2] + 1)]);\n            }\n    \
+    \    }\n    }\n}\n#region Expanded by https://github.com/kzrnm/SourceExpander\n\
+    namespace Library { public class SegmentTree<T> { public int Count { get; private\
+    \ set; }  T Identity; T[] Data; Func<T, T, T> Merge; int LeafCount; public SegmentTree(int\
+    \ count, T identity, Func<T, T, T> merge) { Count = count; Identity = identity;\
+    \ Merge = merge; LeafCount = 1; while (LeafCount < count) LeafCount <<= 1; Data\
+    \ = new T[LeafCount << 1]; for (int i = 1; i < Data.Length; i++) Data[i] = identity;\
+    \ }  public T this[int index] { get { return Data[LeafCount + index]; }  set {\
+    \ Assign(index, value); } }  public void Assign(int i, T x) { Data[i += LeafCount]\
+    \ = x; while (0 < (i >>= 1)) Data[i] = Merge(Data[i << 1], Data[(i << 1) | 1]);\
+    \ }  public void Operate(int i, T x) { Data[i += LeafCount] = Merge(Data[i], x);\
+    \ while (0 < (i >>= 1)) Data[i] = Merge(Data[i << 1], Data[(i << 1) | 1]); } \
+    \ public T Slice(int l, int length) => Fold(l, l + length); public T Fold(int\
+    \ l, int r) { T lRes = Identity, rRes = Identity; for (l += LeafCount, r += LeafCount\
+    \ - 1; l <= r; l = (l + 1) >> 1, r = (r - 1) >> 1) { if ((l & 1) == 1) lRes =\
+    \ Merge(lRes, Data[l]); if ((r & 1) == 0) rRes = Merge(Data[r], rRes); }  return\
+    \ Merge(lRes, rRes); } } }\n#endregion Expanded by https://github.com/kzrnm/SourceExpander\n"
   code: "using System;\nusing System.Linq;\nusing Library;\n\n// verification-helper:\
     \ PROBLEM https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A\n\
     class range_minimum_query\n{\n    static void Main()\n    {\n        var nq =\
@@ -38,7 +55,7 @@ data:
   path: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
   requiredBy: []
   timestamp: '2022-03-16 01:07:09+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
 layout: document
