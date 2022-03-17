@@ -1,9 +1,9 @@
 # online-judge-tools/verification-helper
 
-[![Actions Status](https://github.com/online-judge-tools/verification-helper/workflows/verify/badge.svg)](https://github.com/kmyk/online-judge-verify-helper/actions)
-[![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://online-judge-tools.github.io/verification-helper/)
+[![Actions Status](https://github.com/kzrnm/verification-helper/workflows/verify/badge.svg)](https://github.com/kmyk/online-judge-verify-helper/actions)
+[![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://kzrnm.github.io/verification-helper/)
 [![PyPI](https://img.shields.io/pypi/v/online-judge-verify-helper)](https://pypi.org/project/online-judge-verify-helper/)
-[![LICENSE](https://img.shields.io/pypi/l/online-judge-verify-helper.svg)](https://github.com/online-judge-tools/verification-helper/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/pypi/l/online-judge-verify-helper.svg)](https://github.com/kzrnm/verification-helper/blob/master/LICENSE)
 
 [README 日本語バージョン](README.ja.md)
 
@@ -15,7 +15,7 @@ This is a tool to easily automate the verify process of your code library for co
 
 ### Set up the repository for the library
 
-Please read this: <https://online-judge-tools.github.io/verification-helper/installer.html>
+Please read this: <https://kzrnm.github.io/verification-helper/installer.html>
 
 ### Running the program
 
@@ -29,14 +29,14 @@ Python 3.6 or above is required.
 
 #### Automating the verification
 
-First, specify the problem URL to be used to verify the library in the file including `.test.` in its path (e.g. for C++, write `#define PROBLEM "https://judge.yosupo.jp/problem/unionfind"` in a file like `example.test.cpp`; see [the reference](https://online-judge-tools.github.io/verification-helper/document.html) for other languages). Then, run the following command to check if the verification can be performed.
+First, specify the problem URL to be used to verify the library in the file including `.test.` in its path (e.g. for C++, write `#define PROBLEM "https://judge.yosupo.jp/problem/unionfind"` in a file like `example.test.cpp`; see [the reference](https://kzrnm.github.io/verification-helper/document.html) for other languages). Then, run the following command to check if the verification can be performed.
 
 ``` console
 $ oj-verify run
 ```
 
 Currently, problems on [Library Checker](https://judge.yosupo.jp/) and [Aizu Online Judge](https://onlinejudge.u-aizu.ac.jp/home) are supported.
-For the details, see [the reference](https://online-judge-tools.github.io/verification-helper/document.html).
+For the details, see [the reference](https://kzrnm.github.io/verification-helper/document.html).
 
 #### Autoexpansion of `#include`s
 
@@ -54,7 +54,7 @@ If your competitive programming library resides outside the current directory, p
 
 #### Generating Documentation
 
-Run the following command to generate documentation in `.verify-helper/markdown/`. Example: [https://online-judge-tools.github.io/verification-helper/ ![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://online-judge-tools.github.io/verification-helper/)
+Run the following command to generate documentation in `.verify-helper/markdown/`. Example: [https://kzrnm.github.io/verification-helper/ ![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://kzrnm.github.io/verification-helper/)
 
 ``` console
 $ oj-verify docs
@@ -62,7 +62,7 @@ $ oj-verify docs
 
 If documentation generators like [Doxygen](http://www.doxygen.jp) are found when generating documentation, they will be automatically used.
 TeX expressions like `$(N \sum_i A_i)$` are also supported by the [MathJax](https://www.mathjax.org/) library.
-For the details, see [the reference](https://online-judge-tools.github.io/verification-helper/document.html).
+For the details, see [the reference](https://kzrnm.github.io/verification-helper/document.html).
 
 ## Tips
 

@@ -2,8 +2,8 @@
 
 links:
 
--   [CONTRIBUTING.md](https://github.com/online-judge-tools/.github/blob/master/CONTRIBUTING.md) of [online-judge-tools](https://github.com/online-judge-tools) organization
--   [DESIGN.md](https://github.com/online-judge-tools/verification-helper/blob/master/DESIGN.md)
+-   [CONTRIBUTING.md](https://github.com/kzrnm/.github/blob/master/CONTRIBUTING.md) of [online-judge-tools](https://github.com/online-judge-tools) organization
+-   [DESIGN.md](https://github.com/kzrnm/verification-helper/blob/master/DESIGN.md)
 
 
 ## How to add a new language / 新しい言語を足すには
@@ -21,7 +21,7 @@ Do the following steps:
 
 ## CI to check format
 
-[.github/workflows/format.yml](https://github.com/online-judge-tools/verification-helper/blob/master/.github/workflows/format.yml) defines the format checking.
+[.github/workflows/format.yml](https://github.com/kzrnm/verification-helper/blob/master/.github/workflows/format.yml) defines the format checking.
 
 You can run the format checking with the following commands. You can automatically run this with copying this script into your `.git/hooks/pre-commit`.
 
