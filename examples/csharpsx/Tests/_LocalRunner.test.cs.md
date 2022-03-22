@@ -33,7 +33,7 @@ data:
   isVerificationFile: true
   path: examples/csharpsx/Tests/_LocalRunner.test.cs
   requiredBy: []
-  timestamp: '2022-03-22 14:25:48+00:00'
+  timestamp: '2022-03-23 02:09:55+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/csharpsx/Tests/_LocalRunner.test.cs

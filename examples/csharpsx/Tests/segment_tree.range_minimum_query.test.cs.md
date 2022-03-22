@@ -13,7 +13,6 @@ data:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A
     links:
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A
-    - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A
   bundledCode: "using Library;\nusing System;\nusing System.Linq;\nclass range_minimum_query\n\
     {\n    static void Main()\n    {\n        var nq = Console.ReadLine().Split().Select(int.Parse).ToArray();\n\
     \        var (n, q) = (nq[0], nq[1]);\n        SegmentTree<int> segTree = new\
