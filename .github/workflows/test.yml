@@ -1,14 +1,15 @@
 name: test
 
-on: [push, pull_request, workflow_dispatch]
+on: [push, pull_request]
 
 jobs:
   test:
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    # strategy:
+    #   matrix:
+    #     os: [ubuntu-latest, windows-latest, macos-latest]
 
-    runs-on: ${{ matrix.os }}
+    # runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
@@ -20,15 +21,6 @@ jobs:
 
     - name: Install dependencies
       run: pip install .[dev]
-
-    # required only if you want to verify C# with SourceExpander
-    - uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: |
-          3.1.x
-          6.0.x
-    - name: Install dependencies (C#)
-      run: dotnet tool install -g SourceExpander.Console
 
     - name: Run tests
       run: |
