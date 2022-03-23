@@ -3,18 +3,18 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpscript/segment_tree.point_set_range_composite.test.csx
     title: examples/csharpscript/segment_tree.point_set_range_composite.test.csx
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpscript/segment_tree.range_minimum_query.test.csx
     title: examples/csharpscript/segment_tree.range_minimum_query.test.csx
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpscript/segment_tree.range_sum_query.test.csx
     title: examples/csharpscript/segment_tree.range_sum_query.test.csx
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: csx
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -44,7 +44,7 @@ data:
   path: examples/csharpscript/segment_tree.csx
   requiredBy: []
   timestamp: '2020-02-16 04:32:52+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/csharpscript/segment_tree.range_minimum_query.test.csx
   - examples/csharpscript/segment_tree.point_set_range_composite.test.csx

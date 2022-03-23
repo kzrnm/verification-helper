@@ -1,19 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpscript/segment_tree.csx
     title: examples/csharpscript/segment_tree.csx
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: csx
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/point_set_range_composite
     links:
-    - https://judge.yosupo.jp/problem/point_set_range_composite
-    - https://judge.yosupo.jp/problem/point_set_range_composite
     - https://judge.yosupo.jp/problem/point_set_range_composite
     - https://judge.yosupo.jp/problem/point_set_range_composite
     - https://judge.yosupo.jp/problem/point_set_range_composite
@@ -41,8 +39,8 @@ data:
   isVerificationFile: true
   path: examples/csharpscript/segment_tree.point_set_range_composite.test.csx
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2020-02-16 04:32:52+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: examples/csharpscript/segment_tree.point_set_range_composite.test.csx
 layout: document

@@ -6,15 +6,15 @@ data:
     path: examples/rust/src/lib.rs
     title: examples/rust/src/lib.rs
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs
     title: examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/rust/verification/src/bin/library-checker-aplusb.rs
     title: examples/rust/verification/src/bin/library-checker-aplusb.rs
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: rs
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -33,7 +33,7 @@ data:
   requiredBy:
   - examples/rust/src/lib.rs
   timestamp: '2020-11-30 13:30:54+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs
   - examples/rust/verification/src/bin/library-checker-aplusb.rs

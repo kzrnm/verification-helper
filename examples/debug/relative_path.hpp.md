@@ -2,22 +2,22 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/debug/a/b/c/foo.hpp
     title: examples/debug/a/b/c/foo.hpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/debug/d/e/f/g/foo.hpp
     title: examples/debug/d/e/f/g/foo.hpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/debug/h/i/j/k/l/foo.hpp
     title: examples/debug/h/i/j/k/l/foo.hpp
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/debug/relative_path.test.cpp
     title: examples/debug/relative_path.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: '#line 2 "examples/debug/relative_path.hpp"
@@ -38,7 +38,7 @@ data:
   - examples/debug/d/e/f/g/foo.hpp
   - examples/debug/a/b/c/foo.hpp
   timestamp: '2020-03-19 16:25:51+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/debug/relative_path.test.cpp
 documentation_of: examples/debug/relative_path.hpp

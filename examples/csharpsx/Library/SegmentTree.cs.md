@@ -3,18 +3,18 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs
     title: examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
     title: examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/csharpsx/Tests/segment_tree.range_sum_query.test.cs
     title: examples/csharpsx/Tests/segment_tree.range_sum_query.test.cs
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cs
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "using System;\nnamespace Library\n{\n    public class SegmentTree<T>\n\
@@ -62,8 +62,8 @@ data:
   isVerificationFile: false
   path: examples/csharpsx/Library/SegmentTree.cs
   requiredBy: []
-  timestamp: '2022-03-23 11:59:17+00:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2022-03-23 14:18:06+00:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs
   - examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs

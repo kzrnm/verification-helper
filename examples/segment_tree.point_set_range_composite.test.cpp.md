@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/macros.hpp
     title: examples/macros.hpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/segment_tree.hpp
     title: Segment Tree (generalized with monoids)
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.yosupo.jp/problem/point_set_range_composite
@@ -74,13 +74,13 @@ data:
     \ y);\n            cout << (a * z + b) % MOD << endl;\n        }\n    }\n    return\
     \ 0;\n}\n"
   dependsOn:
-  - examples/segment_tree.hpp
   - examples/macros.hpp
+  - examples/segment_tree.hpp
   isVerificationFile: true
   path: examples/segment_tree.point_set_range_composite.test.cpp
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2020-09-14 23:28:24+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: examples/segment_tree.point_set_range_composite.test.cpp
 layout: document

@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Examples2/Haskell/HelloWorld.test.hs
     title: Examples2/Haskell/HelloWorld.test.hs
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Examples2/Haskell/HelloWorld.test.hs
     title: Examples2/Haskell/HelloWorld.test.hs
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hs
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes: {}
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
@@ -32,7 +32,7 @@ data:
   path: Examples2/Haskell/HelloWorld.hs
   requiredBy: []
   timestamp: '2020-09-17 18:45:17+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Examples2/Haskell/HelloWorld.test.hs
 documentation_of: Examples2/Haskell/HelloWorld.hs

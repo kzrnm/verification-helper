@@ -1,13 +1,13 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/rust/crates/helloworld/hello/src/lib.rs
     title: examples/rust/crates/helloworld/hello/src/lib.rs
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/rust/crates/helloworld/world/src/lib.rs
     title: examples/rust/crates/helloworld/world/src/lib.rs
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/rust/crates/io/input/src/lib.rs
     title: examples/rust/crates/io/input/src/lib.rs
   - icon: ':warning:'
@@ -32,10 +32,10 @@ data:
     }\n\npub mod io {\n    //! Crates about IO.\n\n    re_export!(input, scanner);\n\
     }\n"
   dependsOn:
-  - examples/rust/crates/helloworld/hello/src/lib.rs
-  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
   - examples/rust/crates/io/scanner/src/lib.rs
+  - examples/rust/crates/helloworld/hello/src/lib.rs
+  - examples/rust/crates/helloworld/world/src/lib.rs
   isVerificationFile: false
   path: examples/rust/src/lib.rs
   requiredBy: []

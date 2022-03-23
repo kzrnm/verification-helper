@@ -3,18 +3,18 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/segment_tree.point_set_range_composite.test.cpp
     title: examples/segment_tree.point_set_range_composite.test.cpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/segment_tree.range_minimum_query.test.cpp
     title: examples/segment_tree.range_minimum_query.test.cpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/segment_tree.range_sum_query.test.cpp
     title: examples/segment_tree.range_sum_query.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     document_title: a Segment Tree (generalized with monoids)
     links:
@@ -64,7 +64,7 @@ data:
   path: examples/segment_tree.hpp
   requiredBy: []
   timestamp: '2020-09-14 23:28:24+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/segment_tree.range_sum_query.test.cpp
   - examples/segment_tree.range_minimum_query.test.cpp

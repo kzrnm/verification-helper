@@ -3,15 +3,15 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/python/union_find_aoj.test.py
     title: examples/python/union_find_aoj.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/python/union_find_yosupo.test.py
     title: examples/python/union_find_yosupo.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -32,7 +32,7 @@ data:
   path: examples/python/union_find.py
   requiredBy: []
   timestamp: '2020-08-09 17:15:45+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/python/union_find_aoj.test.py
   - examples/python/union_find_yosupo.test.py

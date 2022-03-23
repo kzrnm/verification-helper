@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/awk/circle.test.awk
     title: examples/awk/circle.test.awk
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: awk
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes: {}
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
@@ -26,7 +26,7 @@ data:
   path: examples/awk/circle.awk
   requiredBy: []
   timestamp: '2020-02-28 16:01:42+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/awk/circle.test.awk
 documentation_of: examples/awk/circle.awk

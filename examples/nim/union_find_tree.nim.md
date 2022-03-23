@@ -1,23 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
-    path: examples/nim/hoge.nim
-    title: examples/nim/hoge.nim
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/nim/hoge.nim
     title: examples/nim/hoge.nim
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/nim/union_find_tree_aoj_test.nim
     title: examples/nim/union_find_tree_aoj_test.nim
-  - icon: ':x:'
-    path: examples/nim/union_find_tree_aoj_test.nim
-    title: examples/nim/union_find_tree_aoj_test.nim
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: nim
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -42,14 +36,12 @@ data:
     \ == self.find_root(j)\n\n  proc hoge*() = echo \"Hello World\"\n"
   dependsOn:
   - examples/nim/hoge.nim
-  - examples/nim/hoge.nim
   isVerificationFile: false
   path: examples/nim/union_find_tree.nim
   requiredBy: []
   timestamp: '2020-05-05 19:43:22+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - examples/nim/union_find_tree_aoj_test.nim
   - examples/nim/union_find_tree_aoj_test.nim
 documentation_of: examples/nim/union_find_tree.nim
 layout: document

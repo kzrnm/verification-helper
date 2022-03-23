@@ -1,20 +1,20 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/macros.hpp
     title: examples/macros.hpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/monoids.hpp
     title: examples/monoids.hpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/segment_tree.hpp
     title: Segment Tree (generalized with monoids)
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_A
@@ -70,14 +70,14 @@ data:
     \      cout << segtree.range_concat(x, y + 1) << endl;\n        }\n    }\n   \
     \ return 0;\n}\n"
   dependsOn:
+  - examples/macros.hpp
   - examples/segment_tree.hpp
   - examples/monoids.hpp
-  - examples/macros.hpp
   isVerificationFile: true
   path: examples/segment_tree.range_minimum_query.test.cpp
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2020-09-14 23:28:24+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: examples/segment_tree.range_minimum_query.test.cpp
 layout: document

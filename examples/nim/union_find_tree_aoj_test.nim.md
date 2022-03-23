@@ -1,33 +1,23 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/nim/headers.nim
     title: examples/nim/headers.nim
-  - icon: ':x:'
-    path: examples/nim/headers.nim
-    title: examples/nim/headers.nim
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/nim/hoge.nim
     title: examples/nim/hoge.nim
-  - icon: ':x:'
-    path: examples/nim/hoge.nim
-    title: examples/nim/hoge.nim
-  - icon: ':x:'
-    path: examples/nim/union_find_tree.nim
-    title: examples/nim/union_find_tree.nim
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: examples/nim/union_find_tree.nim
     title: examples/nim/union_find_tree.nim
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: nim
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_1_A
     links:
-    - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_1_A
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_1_A
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_1_A
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -45,14 +35,11 @@ data:
   - examples/nim/union_find_tree.nim
   - examples/nim/headers.nim
   - examples/nim/hoge.nim
-  - examples/nim/union_find_tree.nim
-  - examples/nim/hoge.nim
-  - examples/nim/headers.nim
   isVerificationFile: true
   path: examples/nim/union_find_tree_aoj_test.nim
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2020-09-17 18:25:50+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: examples/nim/union_find_tree_aoj_test.nim
 layout: document
