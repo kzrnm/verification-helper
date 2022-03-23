@@ -32,6 +32,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: examples/debug/h/i/j/k/l/foo.hpp
       title: examples/debug/h/i/j/k/l/foo.hpp
+  - name: examples
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: examples/macros.hpp
+      title: examples/macros.hpp
   verificationCategories:
   - name: Examples2/Haskell
     pages:
@@ -48,7 +53,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: examples/debug/gcc_only.test.cpp
       title: examples/debug/gcc_only.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: examples/debug/include_relative.test.cpp
       title: examples/debug/include_relative.test.cpp
     - icon: ':heavy_check_mark:'
