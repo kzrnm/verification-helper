@@ -33,10 +33,10 @@ data:
     \n#include \"examples/debug/h/i/j/k/l/foo.hpp\"\n\nint main() {\n    printf(\"\
     %s\\n\", hello);\n    return 0;\n}\n"
   dependsOn:
-  - examples/debug/d/e/f/g/foo.hpp
-  - examples/debug/relative_path.hpp
-  - examples/debug/a/b/c/foo.hpp
   - examples/debug/h/i/j/k/l/foo.hpp
+  - examples/debug/d/e/f/g/foo.hpp
+  - examples/debug/a/b/c/foo.hpp
+  - examples/debug/relative_path.hpp
   isVerificationFile: true
   path: examples/debug/relative_path.test.cpp
   requiredBy: []
