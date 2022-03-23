@@ -35,8 +35,8 @@ data:
   dependsOn:
   - examples/debug/a/b/c/foo.hpp
   - examples/debug/h/i/j/k/l/foo.hpp
-  - examples/debug/d/e/f/g/foo.hpp
   - examples/debug/relative_path.hpp
+  - examples/debug/d/e/f/g/foo.hpp
   isVerificationFile: true
   path: examples/debug/relative_path.test.cpp
   requiredBy: []
