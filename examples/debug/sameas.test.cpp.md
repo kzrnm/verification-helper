@@ -2,7 +2,10 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: examples/debug/sameasrunner.test.py
+    title: examples/debug/sameasrunner.test.py
   _isVerificationFailed: false
   _pathExtension: cpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -20,7 +23,8 @@ data:
   requiredBy: []
   timestamp: '2022-03-23 03:53:26+09:00'
   verificationStatus: TEST_ACCEPTED
-  verifiedWith: []
+  verifiedWith:
+  - examples/debug/sameasrunner.test.py
 documentation_of: examples/debug/sameas.test.cpp
 layout: document
 redirect_from:

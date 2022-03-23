@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: examples/debug/sameas.test.cpp
+    title: examples/debug/sameas.test.cpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -16,7 +19,8 @@ data:
   code: "# verification-helper: STANDALONE\nimport subprocess\nimport sys\n\ndef main():\n\
     \    subprocess.run([sys.executable, '-V'], check=True)\n\n\nif __name__ == '__main__':\n\
     \    main()\n"
-  dependsOn: []
+  dependsOn:
+  - examples/debug/sameas.test.cpp
   isVerificationFile: true
   path: examples/debug/sameasrunner.test.py
   requiredBy: []

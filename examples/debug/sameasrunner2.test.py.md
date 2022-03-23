@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':x:'
+    path: examples/debug/sameas2.test.cpp
+    title: examples/debug/sameas2.test.cpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: true
@@ -15,11 +18,12 @@ data:
     , line 100, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: STANDALONE\ndef main():\n    raise RuntimeError(\"\
     error\")\n\n\nif __name__ == '__main__':\n    main()\n"
-  dependsOn: []
+  dependsOn:
+  - examples/debug/sameas2.test.cpp
   isVerificationFile: true
   path: examples/debug/sameasrunner2.test.py
   requiredBy: []
-  timestamp: '2022-03-23 23:26:26+09:00'
+  timestamp: '2022-03-24 00:05:01+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/debug/sameasrunner2.test.py

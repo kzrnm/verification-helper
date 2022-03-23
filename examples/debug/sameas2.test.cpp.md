@@ -2,7 +2,10 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':x:'
+    path: examples/debug/sameasrunner2.test.py
+    title: examples/debug/sameasrunner2.test.py
   _isVerificationFailed: true
   _pathExtension: cpp
   _verificationStatusIcon: ':x:'
@@ -20,7 +23,8 @@ data:
   requiredBy: []
   timestamp: '2022-03-24 00:05:01+09:00'
   verificationStatus: TEST_WRONG_ANSWER
-  verifiedWith: []
+  verifiedWith:
+  - examples/debug/sameasrunner2.test.py
 documentation_of: examples/debug/sameas2.test.cpp
 layout: document
 redirect_from:
