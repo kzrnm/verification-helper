@@ -1,20 +1,20 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/rust/crates/helloworld/hello/src/lib.rs
     title: examples/rust/crates/helloworld/hello/src/lib.rs
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/rust/crates/helloworld/world/src/lib.rs
     title: examples/rust/crates/helloworld/world/src/lib.rs
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/rust/crates/io/input/src/lib.rs
     title: examples/rust/crates/io/input/src/lib.rs
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: rs
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
     links:
@@ -28,14 +28,14 @@ data:
   code: "// verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A\n\
     \nfn main() {\n    println!(\"{} {}\", hello::HELLO, world::WORLD);\n}\n"
   dependsOn:
-  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/helloworld/hello/src/lib.rs
+  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
   isVerificationFile: true
   path: examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs
   requiredBy: []
-  timestamp: '2020-11-30 13:30:54+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs
 layout: document

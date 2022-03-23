@@ -3,15 +3,15 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/union_find_tree.aoj.test.cpp
     title: examples/union_find_tree.aoj.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/union_find_tree.yosupo.test.cpp
     title: examples/union_find_tree.yosupo.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     document_title: a Union-Find Tree
     links: []
@@ -46,7 +46,7 @@ data:
   path: examples/union_find_tree.hpp
   requiredBy: []
   timestamp: '2019-12-16 05:18:36+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - examples/union_find_tree.yosupo.test.cpp
   - examples/union_find_tree.aoj.test.cpp

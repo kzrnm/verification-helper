@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/headers.nim
     title: examples/nim/headers.nim
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/headers.nim
     title: examples/nim/headers.nim
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: nim
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/unionfind
     links:
@@ -34,8 +34,8 @@ data:
   isVerificationFile: true
   path: examples/nim/union_find_tree_yosupo_test.nim
   requiredBy: []
-  timestamp: '2020-09-17 18:25:50+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/nim/union_find_tree_yosupo_test.nim
 layout: document

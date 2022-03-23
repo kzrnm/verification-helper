@@ -1,29 +1,29 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/headers.nim
     title: examples/nim/headers.nim
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/headers.nim
     title: examples/nim/headers.nim
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/hoge.nim
     title: examples/nim/hoge.nim
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/hoge.nim
     title: examples/nim/hoge.nim
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/union_find_tree.nim
     title: examples/nim/union_find_tree.nim
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/nim/union_find_tree.nim
     title: examples/nim/union_find_tree.nim
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: nim
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_1_A
     links:
@@ -42,17 +42,17 @@ data:
     \  let com, x, y = nextInt()\n  if com == 0:\n    uft.unite_trees(x, y)\n  elif\
     \ com == 1:\n    echo if uft.is_same(x, y): 1 else: 0\n"
   dependsOn:
-  - examples/nim/hoge.nim
-  - examples/nim/headers.nim
   - examples/nim/union_find_tree.nim
+  - examples/nim/headers.nim
+  - examples/nim/hoge.nim
   - examples/nim/union_find_tree.nim
   - examples/nim/hoge.nim
   - examples/nim/headers.nim
   isVerificationFile: true
   path: examples/nim/union_find_tree_aoj_test.nim
   requiredBy: []
-  timestamp: '2020-09-17 18:25:50+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/nim/union_find_tree_aoj_test.nim
 layout: document

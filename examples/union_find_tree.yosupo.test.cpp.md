@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/macros.hpp
     title: examples/macros.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/union_find_tree.hpp
     title: a Union-Find Tree
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://judge.yosupo.jp/problem/unionfind
@@ -49,13 +49,13 @@ data:
     \ 1) {\n            cout << uft.is_same(u, v) << endl;\n        }\n    }\n   \
     \ return 0;\n}\n"
   dependsOn:
-  - examples/macros.hpp
   - examples/union_find_tree.hpp
+  - examples/macros.hpp
   isVerificationFile: true
   path: examples/union_find_tree.yosupo.test.cpp
   requiredBy: []
-  timestamp: '2019-12-16 05:18:36+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/union_find_tree.yosupo.test.cpp
 layout: document

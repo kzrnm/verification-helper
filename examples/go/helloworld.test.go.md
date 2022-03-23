@@ -1,23 +1,23 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld.go
     title: examples/go/helloworld.go
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld/helloworld.go
     title: examples/go/helloworld/helloworld.go
   _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld.go
     title: examples/go/helloworld.go
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld/helloworld.go
     title: examples/go/helloworld/helloworld.go
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: go
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -29,15 +29,15 @@ data:
     \npackage main\n\nimport (\n    \"fmt\"\n    \"./helloworld\"\n)\n\nfunc main()\
     \ {\n    fmt.Printf(\"%s\\n\", helloworld.GetHelloWorld())\n}\n"
   dependsOn:
-  - examples/go/helloworld/helloworld.go
   - examples/go/helloworld.go
+  - examples/go/helloworld/helloworld.go
   isVerificationFile: true
   path: examples/go/helloworld.test.go
   requiredBy:
   - examples/go/helloworld.go
   - examples/go/helloworld/helloworld.go
-  timestamp: '2020-09-17 19:04:09+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/go/helloworld.test.go
 layout: document

@@ -2,13 +2,10 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
-    path: examples/debug/sameas.test.cpp
-    title: examples/debug/sameas.test.cpp
-  _isVerificationFailed: false
+  _extendedVerifiedWith: []
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     STANDALONE: ''
     links: []
@@ -24,9 +21,8 @@ data:
   path: examples/debug/sameasrunner.test.py
   requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: TEST_ACCEPTED
-  verifiedWith:
-  - examples/debug/sameas.test.cpp
+  verificationStatus: TEST_WRONG_ANSWER
+  verifiedWith: []
 documentation_of: examples/debug/sameasrunner.test.py
 layout: document
 redirect_from:

@@ -1,23 +1,23 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/debug/a/b/c/foo.hpp
     title: examples/debug/a/b/c/foo.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/debug/d/e/f/g/foo.hpp
     title: examples/debug/d/e/f/g/foo.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/debug/h/i/j/k/l/foo.hpp
     title: examples/debug/h/i/j/k/l/foo.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/debug/relative_path.hpp
     title: examples/debug/relative_path.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
@@ -33,15 +33,15 @@ data:
     \n#include \"examples/debug/h/i/j/k/l/foo.hpp\"\n\nint main() {\n    printf(\"\
     %s\\n\", hello);\n    return 0;\n}\n"
   dependsOn:
-  - examples/debug/d/e/f/g/foo.hpp
-  - examples/debug/h/i/j/k/l/foo.hpp
   - examples/debug/a/b/c/foo.hpp
   - examples/debug/relative_path.hpp
+  - examples/debug/d/e/f/g/foo.hpp
+  - examples/debug/h/i/j/k/l/foo.hpp
   isVerificationFile: true
   path: examples/debug/relative_path.test.cpp
   requiredBy: []
-  timestamp: '2020-03-19 16:25:51+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/debug/relative_path.test.cpp
 layout: document

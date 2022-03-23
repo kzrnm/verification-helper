@@ -1,17 +1,19 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/csharpscript/segment_tree.csx
     title: examples/csharpscript/segment_tree.csx
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: csx
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
     links:
+    - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
+    - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
@@ -31,8 +33,8 @@ data:
   isVerificationFile: true
   path: examples/csharpscript/segment_tree.range_sum_query.test.csx
   requiredBy: []
-  timestamp: '2020-02-16 04:32:52+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/csharpscript/segment_tree.range_sum_query.test.csx
 layout: document

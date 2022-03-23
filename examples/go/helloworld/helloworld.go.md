@@ -1,23 +1,23 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld.go
     title: examples/go/helloworld.go
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld.test.go
     title: examples/go/helloworld.test.go
   _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld.go
     title: examples/go/helloworld.go
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/go/helloworld.test.go
     title: examples/go/helloworld.test.go
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: go
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes: {}
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
@@ -34,7 +34,7 @@ data:
   requiredBy:
   - examples/go/helloworld.go
   timestamp: '2020-09-17 19:04:09+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - examples/go/helloworld.test.go
 documentation_of: examples/go/helloworld/helloworld.go

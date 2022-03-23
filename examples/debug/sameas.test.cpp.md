@@ -1,14 +1,11 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: examples/debug/sameasrunner.test.py
-    title: examples/debug/sameasrunner.test.py
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     SAMEAS: examples/debug/sameasrunner.test.py
@@ -17,13 +14,12 @@ data:
     \n\nint f() {\n    return 1;\n}\n"
   code: "#define SAMEAS \"examples/debug/sameasrunner.test.py\"\n\nint f() {\n   \
     \ return 1;\n}"
-  dependsOn:
-  - examples/debug/sameasrunner.test.py
+  dependsOn: []
   isVerificationFile: true
   path: examples/debug/sameas.test.cpp
   requiredBy: []
-  timestamp: '2022-03-23 03:53:26+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/debug/sameas.test.cpp
 layout: document

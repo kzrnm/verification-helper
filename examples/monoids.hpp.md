@@ -3,15 +3,15 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/segment_tree.range_minimum_query.test.cpp
     title: examples/segment_tree.range_minimum_query.test.cpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/segment_tree.range_sum_query.test.cpp
     title: examples/segment_tree.range_sum_query.test.cpp
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 2 \"examples/monoids.hpp\"\n#include <algorithm>\n#include <cstdint>\n\
@@ -36,7 +36,7 @@ data:
   path: examples/monoids.hpp
   requiredBy: []
   timestamp: '2019-11-29 11:28:05+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - examples/segment_tree.range_sum_query.test.cpp
   - examples/segment_tree.range_minimum_query.test.cpp

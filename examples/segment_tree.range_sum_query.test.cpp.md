@@ -1,20 +1,20 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/macros.hpp
     title: examples/macros.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/monoids.hpp
     title: examples/monoids.hpp
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/segment_tree.hpp
     title: Segment Tree (generalized with monoids)
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
@@ -71,13 +71,13 @@ data:
     \ << endl;\n        }\n    }\n    return 0;\n}\n"
   dependsOn:
   - examples/segment_tree.hpp
-  - examples/macros.hpp
   - examples/monoids.hpp
+  - examples/macros.hpp
   isVerificationFile: true
   path: examples/segment_tree.range_sum_query.test.cpp
   requiredBy: []
-  timestamp: '2020-09-14 23:28:24+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: examples/segment_tree.range_sum_query.test.cpp
 layout: document

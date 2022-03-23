@@ -1,13 +1,13 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/rust/crates/helloworld/hello/src/lib.rs
     title: examples/rust/crates/helloworld/hello/src/lib.rs
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/rust/crates/helloworld/world/src/lib.rs
     title: examples/rust/crates/helloworld/world/src/lib.rs
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/rust/crates/io/input/src/lib.rs
     title: examples/rust/crates/io/input/src/lib.rs
   - icon: ':warning:'

@@ -2,7 +2,7 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: examples/rust/crates/io/input/src/lib.rs
     title: examples/rust/crates/io/input/src/lib.rs
   - icon: ':warning:'
