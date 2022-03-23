@@ -65,7 +65,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: examples/debug/sameas.test.cpp
       title: examples/debug/sameas.test.cpp
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: examples/debug/sameas2.test.cpp
       title: examples/debug/sameas2.test.cpp
     - icon: ':heavy_check_mark:'
