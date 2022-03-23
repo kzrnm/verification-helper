@@ -1,11 +1,6 @@
 ---
 data:
   libraryCategories:
-  - name: Examples2/Haskell
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: Examples2/Haskell/HelloWorld.hs
-      title: Examples2/Haskell/HelloWorld.hs
   - name: examples/debug/a/b/c
     pages:
     - icon: ':heavy_check_mark:'
@@ -38,11 +33,6 @@ data:
       path: examples/macros.hpp
       title: examples/macros.hpp
   verificationCategories:
-  - name: Examples2/Haskell
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: Examples2/Haskell/HelloWorld.test.hs
-      title: Examples2/Haskell/HelloWorld.test.hs
   - name: .
     pages:
     - icon: ':heavy_check_mark:'
