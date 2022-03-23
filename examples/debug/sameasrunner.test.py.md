@@ -20,7 +20,7 @@ data:
   isVerificationFile: true
   path: examples/debug/sameasrunner.test.py
   requiredBy: []
-  timestamp: '2022-03-23 23:08:57+09:00'
+  timestamp: '2022-03-23 23:33:19+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: examples/debug/sameasrunner.test.py
