@@ -19,6 +19,8 @@ data:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
     links:
     - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
+    - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
+    - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/rust.py\"\
@@ -26,8 +28,8 @@ data:
   code: "// verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A\n\
     \nfn main() {\n    println!(\"{} {}\", hello::HELLO, world::WORLD);\n}\n"
   dependsOn:
-  - examples/rust/crates/helloworld/hello/src/lib.rs
   - examples/rust/crates/helloworld/world/src/lib.rs
+  - examples/rust/crates/helloworld/hello/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
   isVerificationFile: true
   path: examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs

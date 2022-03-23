@@ -191,6 +191,12 @@ data:
       path: examples/debug/relative_path.test.cpp
       title: examples/debug/relative_path.test.cpp
     - icon: ':heavy_check_mark:'
+      path: examples/debug/sameas.test.cpp
+      title: examples/debug/sameas.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: examples/debug/sameasrunner.test.py
+      title: examples/debug/sameasrunner.test.py
+    - icon: ':heavy_check_mark:'
       path: examples/debug/yukicoder.test.cpp
       title: examples/debug/yukicoder.test.cpp
   - name: examples/go

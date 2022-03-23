@@ -71,8 +71,8 @@ data:
     \ return 0;\n}\n"
   dependsOn:
   - examples/segment_tree.hpp
-  - examples/monoids.hpp
   - examples/macros.hpp
+  - examples/monoids.hpp
   isVerificationFile: true
   path: examples/segment_tree.range_minimum_query.test.cpp
   requiredBy: []

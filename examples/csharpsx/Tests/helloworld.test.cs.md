@@ -16,6 +16,8 @@ data:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A
     links:
     - https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A
+    - https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A
+    - https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A
   bundledCode: "using System;\ninternal class helloworld\n{\n    public static void\
     \ Main()\n    {\n        Library.HelloWorld.Hello();\n    }\n}\n#region Expanded\
     \ by https://github.com/kzrnm/SourceExpander\nnamespace Library { public static\

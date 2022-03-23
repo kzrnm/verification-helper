@@ -4,30 +4,33 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: examples/python/hello_world.test.py
-    title: examples/python/hello_world.test.py
+    path: examples/debug/sameas.test.cpp
+    title: examples/debug/sameas.test.cpp
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
+    STANDALONE: ''
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 100, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def get_hello_world() -> str:\n    return \"Hello World\"\n"
+  code: "# verification-helper: STANDALONE\nimport subprocess\nimport sys\n\ndef main():\n\
+    \    subprocess.run([sys.executable, '-V'], check=True)\n\n\nif __name__ == '__main__':\n\
+    \    main()\n"
   dependsOn: []
-  isVerificationFile: false
-  path: examples/python/hello_world.py
+  isVerificationFile: true
+  path: examples/debug/sameasrunner.test.py
   requiredBy: []
-  timestamp: '2020-09-17 18:26:40+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith:
-  - examples/python/hello_world.test.py
-documentation_of: examples/python/hello_world.py
+  - examples/debug/sameas.test.cpp
+documentation_of: examples/debug/sameasrunner.test.py
 layout: document
 redirect_from:
-- /library/examples/python/hello_world.py
-- /library/examples/python/hello_world.py.html
-title: examples/python/hello_world.py
+- /verify/examples/debug/sameasrunner.test.py
+- /verify/examples/debug/sameasrunner.test.py.html
+title: examples/debug/sameasrunner.test.py
 ---

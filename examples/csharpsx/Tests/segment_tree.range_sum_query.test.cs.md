@@ -13,6 +13,8 @@ data:
     PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
     links:
     - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
+    - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
+    - https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/all/DSL_2_B
   bundledCode: "using Library;\nusing System;\nusing System.Linq;\nclass range_sum_query\n\
     {\n    static void Main()\n    {\n        var nq = Console.ReadLine().Split().Select(int.Parse).ToArray();\n\
     \        var (n, q) = (nq[0], nq[1]);\n        SegmentTree<int> segTree = new\
