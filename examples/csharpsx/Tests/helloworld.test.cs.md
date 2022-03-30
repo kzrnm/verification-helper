@@ -28,8 +28,8 @@ data:
     \ninternal class helloworld\n{\n    public static void Main()\n    {\n       \
     \ Library.HelloWorld.Hello();\n    }\n}\n"
   dependsOn:
-  - examples/csharpsx/Library/HelloWorld.cs
   - examples/csharpsx/Library/HelloWorld.const.cs
+  - examples/csharpsx/Library/HelloWorld.cs
   isVerificationFile: true
   path: examples/csharpsx/Tests/helloworld.test.cs
   requiredBy: []

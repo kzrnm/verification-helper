@@ -27,8 +27,8 @@ data:
   code: "// verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A\n\
     \nfn main() {\n    println!(\"{} {}\", hello::HELLO, world::WORLD);\n}\n"
   dependsOn:
-  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/helloworld/hello/src/lib.rs
+  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
   isVerificationFile: true
   path: examples/rust/verification/src/bin/aizu-online-judge-itp1-1-a.rs

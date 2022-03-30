@@ -28,8 +28,8 @@ data:
     use input::input;\n\nfn main() {\n    input! {\n        a: u32,\n        b: u32,\n\
     \    }\n\n    println!(\"{}\", a + b);\n}\n"
   dependsOn:
-  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/helloworld/hello/src/lib.rs
+  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
   isVerificationFile: true
   path: examples/rust/verification/src/bin/library-checker-aplusb.rs

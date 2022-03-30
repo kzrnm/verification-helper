@@ -33,9 +33,9 @@ data:
     }\n"
   dependsOn:
   - examples/rust/crates/helloworld/world/src/lib.rs
-  - examples/rust/crates/io/scanner/src/lib.rs
   - examples/rust/crates/helloworld/hello/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
+  - examples/rust/crates/io/scanner/src/lib.rs
   isVerificationFile: false
   path: examples/rust/src/lib.rs
   requiredBy: []
