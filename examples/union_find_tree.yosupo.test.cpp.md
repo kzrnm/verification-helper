@@ -49,8 +49,8 @@ data:
     \ 1) {\n            cout << uft.is_same(u, v) << endl;\n        }\n    }\n   \
     \ return 0;\n}\n"
   dependsOn:
-  - examples/macros.hpp
   - examples/union_find_tree.hpp
+  - examples/macros.hpp
   isVerificationFile: true
   path: examples/union_find_tree.yosupo.test.cpp
   requiredBy: []

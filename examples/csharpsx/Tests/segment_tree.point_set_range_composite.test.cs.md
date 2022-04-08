@@ -13,8 +13,6 @@ data:
     PROBLEM: https://judge.yosupo.jp/problem/point_set_range_composite
     links:
     - https://judge.yosupo.jp/problem/point_set_range_composite
-    - https://judge.yosupo.jp/problem/point_set_range_composite
-    - https://judge.yosupo.jp/problem/point_set_range_composite
   bundledCode: "using Library;\nusing System;\nusing System.Linq;\nclass point_set_range_composite\n\
     {\n    static void Main()\n    {\n        var nq = Console.ReadLine().Split().Select(int.Parse).ToArray();\n\
     \        var (n, q) = (nq[0], nq[1]);\n        SegmentTree<Linear> segTree = new\

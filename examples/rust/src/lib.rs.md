@@ -20,9 +20,9 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/rust.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/rust.py\"\
     , line 288, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "//! Re-exports the crates for rustdoc.\n//!\n//! This crate itself is not\
     \ intended to be used directly.\n\n// With `custom-build` and `syn` crate, we\
@@ -32,8 +32,8 @@ data:
     }\n\npub mod io {\n    //! Crates about IO.\n\n    re_export!(input, scanner);\n\
     }\n"
   dependsOn:
-  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/helloworld/hello/src/lib.rs
+  - examples/rust/crates/helloworld/world/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
   - examples/rust/crates/io/scanner/src/lib.rs
   isVerificationFile: false

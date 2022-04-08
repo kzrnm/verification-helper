@@ -4,8 +4,14 @@ data:
   - icon: ':heavy_check_mark:'
     path: examples/nim/hoge.nim
     title: examples/nim/hoge.nim
+  - icon: ':heavy_check_mark:'
+    path: examples/nim/hoge.nim
+    title: examples/nim/hoge.nim
   _extendedRequiredBy: []
   _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: examples/nim/union_find_tree_aoj_test.nim
+    title: examples/nim/union_find_tree_aoj_test.nim
   - icon: ':heavy_check_mark:'
     path: examples/nim/union_find_tree_aoj_test.nim
     title: examples/nim/union_find_tree_aoj_test.nim
@@ -14,9 +20,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/nim.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/nim.py\"\
     , line 86, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "when not declared(EXAMPLES_UNION_FIND_TREE_NIM):\n  const EXAMPLES_UNION_FIND_TREE_NIM\
     \ = true\n  import sequtils\n  import \"examples/nim/hoge.nim\"\n  \n  # @brief\
@@ -36,12 +42,14 @@ data:
     \ == self.find_root(j)\n\n  proc hoge*() = echo \"Hello World\"\n"
   dependsOn:
   - examples/nim/hoge.nim
+  - examples/nim/hoge.nim
   isVerificationFile: false
   path: examples/nim/union_find_tree.nim
   requiredBy: []
   timestamp: '2020-05-05 19:43:22+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - examples/nim/union_find_tree_aoj_test.nim
   - examples/nim/union_find_tree_aoj_test.nim
 documentation_of: examples/nim/union_find_tree.nim
 layout: document

@@ -17,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharpscript.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/csharpscript.py\"\
     , line 113, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class SegmentTree<T>\n{\n    public int Count { get; private set; }\n   \
     \ T Identity;\n    T[] Data;\n    Func<T, T, T> Merge;\n    int LeafCount;\n \
@@ -47,8 +47,8 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - examples/csharpscript/segment_tree.range_minimum_query.test.csx
-  - examples/csharpscript/segment_tree.point_set_range_composite.test.csx
   - examples/csharpscript/segment_tree.range_sum_query.test.csx
+  - examples/csharpscript/segment_tree.point_set_range_composite.test.csx
 documentation_of: examples/csharpscript/segment_tree.csx
 layout: document
 redirect_from:

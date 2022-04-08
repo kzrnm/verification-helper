@@ -70,9 +70,9 @@ data:
     \      cout << segtree.range_concat(x, y + 1) << endl;\n        }\n    }\n   \
     \ return 0;\n}\n"
   dependsOn:
+  - examples/segment_tree.hpp
   - examples/monoids.hpp
   - examples/macros.hpp
-  - examples/segment_tree.hpp
   isVerificationFile: true
   path: examples/segment_tree.range_minimum_query.test.cpp
   requiredBy: []

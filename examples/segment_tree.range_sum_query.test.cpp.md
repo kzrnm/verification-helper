@@ -70,9 +70,9 @@ data:
     \       } else if (com == 1) {\n            cout << segtree.range_concat(x, y)\
     \ << endl;\n        }\n    }\n    return 0;\n}\n"
   dependsOn:
+  - examples/segment_tree.hpp
   - examples/monoids.hpp
   - examples/macros.hpp
-  - examples/segment_tree.hpp
   isVerificationFile: true
   path: examples/segment_tree.range_sum_query.test.cpp
   requiredBy: []

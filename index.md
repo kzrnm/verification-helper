@@ -179,6 +179,9 @@ data:
   - name: examples/debug
     pages:
     - icon: ':heavy_check_mark:'
+      path: examples/debug/external_failure_flag.test.cpp
+      title: examples/debug/external_failure_flag.test.cpp
+    - icon: ':heavy_check_mark:'
       path: examples/debug/gcc_only.test.cpp
       title: examples/debug/gcc_only.test.cpp
     - icon: ':heavy_check_mark:'
@@ -190,12 +193,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: examples/debug/relative_path.test.cpp
       title: examples/debug/relative_path.test.cpp
-    - icon: ':heavy_check_mark:'
-      path: examples/debug/sameas.test.cpp
-      title: examples/debug/sameas.test.cpp
-    - icon: ':heavy_check_mark:'
-      path: examples/debug/sameasrunner.test.py
-      title: examples/debug/sameasrunner.test.py
     - icon: ':heavy_check_mark:'
       path: examples/debug/yukicoder.test.cpp
       title: examples/debug/yukicoder.test.cpp

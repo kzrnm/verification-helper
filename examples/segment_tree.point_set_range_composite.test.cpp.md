@@ -74,8 +74,8 @@ data:
     \ y);\n            cout << (a * z + b) % MOD << endl;\n        }\n    }\n    return\
     \ 0;\n}\n"
   dependsOn:
-  - examples/macros.hpp
   - examples/segment_tree.hpp
+  - examples/macros.hpp
   isVerificationFile: true
   path: examples/segment_tree.point_set_range_composite.test.cpp
   requiredBy: []

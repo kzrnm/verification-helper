@@ -51,8 +51,8 @@ data:
     \ uft.unite_trees(x, y);\n        } else if (com == 1) {\n            cout <<\
     \ uft.is_same(x, y) << endl;\n        }\n    }\n    return 0;\n}\n"
   dependsOn:
-  - examples/macros.hpp
   - examples/union_find_tree.hpp
+  - examples/macros.hpp
   isVerificationFile: true
   path: examples/union_find_tree.aoj.test.cpp
   requiredBy: []
