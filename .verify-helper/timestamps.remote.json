@@ -10,6 +10,7 @@
 "examples/csharpsx/Tests/segment_tree.point_set_range_composite.test.cs": "2022-03-16 01:07:09 +0900",
 "examples/csharpsx/Tests/segment_tree.range_minimum_query.test.cs": "2022-03-16 01:07:09 +0900",
 "examples/csharpsx/Tests/segment_tree.range_sum_query.test.cs": "2022-03-16 01:07:09 +0900",
+"examples/debug/external_failure_flag.test.cpp": "2022-04-08 19:53:17 +0900",
 "examples/debug/gcc_only.test.cpp": "2020-02-28 16:21:27 +0900",
 "examples/debug/include_relative.test.cpp": "2020-02-28 16:21:27 +0900",
 "examples/debug/precision.test.cpp": "2020-02-28 16:21:27 +0900",
