@@ -39,8 +39,8 @@ data:
   isVerificationFile: false
   path: examples/rust/crates/io/scanner/src/lib.rs
   requiredBy:
-  - examples/rust/src/lib.rs
   - examples/rust/crates/io/input/src/lib.rs
+  - examples/rust/src/lib.rs
   timestamp: '2020-11-30 13:30:54+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
