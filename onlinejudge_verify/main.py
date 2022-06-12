@@ -126,6 +126,10 @@ def push_documents_to_gh_pages(*, src_dir: pathlib.Path, dst_branch: str = 'gh-p
             with open(str(path), 'rb') as fh:
                 src_files[path.relative_to(src_dir)] = fh.read()
 
+    subprocess.check_call(['git', 'config', '--global', 'user.name', 'GitHub'])
+    subprocess.check_call(['git', 'config', '--global', 'user.email', 'noreply@github.com'])
+    subprocess.check_call(['git', 'config', 'checkout.defaultRemote', 'origin'])
+
     # checkout gh-pages
     logger.info('$ git checkout %s', dst_branch)
     subprocess.check_call(['rm', '.verify-helper/.gitignore'])  # required, to remove .gitignore even if it is untracked
@@ -148,8 +152,6 @@ def push_documents_to_gh_pages(*, src_dir: pathlib.Path, dst_branch: str = 'gh-p
 
     # commit and push
     logger.info('$ git add . && git commit && git push')
-    subprocess.check_call(['git', 'config', '--global', 'user.name', 'GitHub'])
-    subprocess.check_call(['git', 'config', '--global', 'user.email', 'noreply@github.com'])
     subprocess.check_call(['git', 'add', '.'])
     if subprocess.run(['git', 'diff', '--quiet', '--staged'], check=False).returncode:
         message = '[auto-verifier] docs commit {}'.format(os.environ['GITHUB_SHA'])
